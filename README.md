@@ -16,20 +16,15 @@ tistr_project/                 # โฟลเดอร์หลักของ�
 │   └── marts/
 │
 ├── mock_s3_bucket/            # 📁 โฟลเดอร์ที่จำลองมาจาก AWS S3 
-   ├── raw/                   # ชั้นข้อมูลดิบ 
-   │   ├── sap/
-   │   │   └── master_band.csv
-   │   └── hris/
-   │       └── employee_raw.csv
-   └── gold_model/           # ชั้นข้อมูลที่ dbt ประมวลผลเสร็จแล้ว (ตัวอย่างผลลัพธ์)
+│   ├── raw/                   # ชั้นข้อมูลดิบ (แปลงเป็น Token/Encrypt แล้ว)
+│   │   ├── sap/
+│   │   │   └── master_band.csv
+│   │   └── hris/
+│   │       └── employee_raw.csv
+│   └── gold_model/           # ชั้นข้อมูลที่ dbt ประมวลผลเสร็จแล้ว (ตัวอย่างผลลัพธ์)
+│
+└── seeds/                    # ไฟล์์ csv สำหรับส่งข้อมูลขึ้น AWS โดยตรง
 
-
-models/
-├── staging/                # (ชั้นพักข้อมูลดิบที่ Clean และแปลงชื่อคอลัมน์แล้ว)
-├── intermediate/           # (ชั้น Integration Layer สำหรับ Join และปรับมาตรฐานข้อมูล)
-└── marts/                  # (ชั้น Gold สำหรับนำไปใช้ทำ Report หรือเชื่อมต่อ CKAN)
-    └── core/
-        └── dim_employee.sql
 ```
 # 🛠️ คู่มือการติดตั้งและการใช้งาน dbt (dbt Installation & Usage Guide)
 
