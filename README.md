@@ -15,7 +15,7 @@ models/
 └── marts/                  # (ชั้น Gold สำหรับนำไปใช้ทำ Report หรือเชื่อมต่อ CKAN)
     └── core/
         └── dim_employee.sql
-
+```
 # 🛠️ คู่มือการติดตั้งและการใช้งาน dbt (dbt Installation & Usage Guide)
 
 คู่มือนี้จัดทำขึ้นเพื่ออธิบายขั้นตอนการตั้งค่าระบบ Environment การติดตั้ง dbt และคำสั่งที่จำเป็นในการรันโมเดลข้อมูลสำหรับโปรเจกต์ **TISTR Data Warehouse** 
