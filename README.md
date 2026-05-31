@@ -9,6 +9,21 @@
 ในการทำ Data Modeling ได้มีการจัดกลุ่มข้อมูลออกเป็น 3 Layer ตามหลัก dbt Best Practices ดังนี้:
 
 ```text
+tistr_project/                 # โฟลเดอร์หลักของโปรเจกต์
+├── dbt_project.yml            # ไฟล์คอนฟิกของ dbt
+├── models/                    # โฟลเดอร์ระบบ dbt Models (โค้ด SQL เท่านั้น)
+│   ├── staging/
+│   └── marts/
+│
+├── mock_s3_bucket/            # 📁 โฟลเดอร์ที่จำลองมาจาก AWS S3 
+   ├── raw/                   # ชั้นข้อมูลดิบ 
+   │   ├── sap/
+   │   │   └── master_band.csv
+   │   └── hris/
+   │       └── employee_raw.csv
+   └── gold_model/           # ชั้นข้อมูลที่ dbt ประมวลผลเสร็จแล้ว (ตัวอย่างผลลัพธ์)
+
+
 models/
 ├── staging/                # (ชั้นพักข้อมูลดิบที่ Clean และแปลงชื่อคอลัมน์แล้ว)
 ├── intermediate/           # (ชั้น Integration Layer สำหรับ Join และปรับมาตรฐานข้อมูล)
