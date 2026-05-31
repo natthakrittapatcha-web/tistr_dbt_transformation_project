@@ -1,0 +1,4 @@
+"project_sk","snapshot_year","date_sk","is_esg_netzero","esg_category","is_cfo_linked","is_sandbox","sandbox_phase","batch_id","load_ts","source_system"
+"1","2026","20260528","1","Environment (Sust. Agri)","1","0","N/A","BATCH_FACT_ESG_01","2026-05-28 10:00:00.000","ESG_TRACKER"
+"3","2026","20260528","1","Environment (Net Zero)","1","1","Phase 2 Pilot","BATCH_FACT_ESG_01","2026-05-28 10:00:00.000","ESG_TRACKER"
+"5","2026","20260528","1","Social & Community","0","1","Phase 1 Setup","BATCH_FACT_ESG_01","2026-05-28 10:00:00.000","ESG_TRACKER"

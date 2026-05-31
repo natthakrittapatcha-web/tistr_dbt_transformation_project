@@ -1,0 +1,5 @@
+theme_code,strategic_theme,theme_name,cluster_code,national_agenda_id,technology_domain_id,strategic_alignment_score,trl_id,stage,impact_score,expected_impact_score,valid_from,valid_to,is_current,batch_id,load_ts
+1,ST-SMART-AGRI,ระบบเกษตรอัจฉริยะเพื่อความยั่งยืน,1,1,1,95,4,Development,85,90,2026-01-01,9999-12-31,1,BATCH_THEME_01,2026-05-28 09:00:00
+2,ST-BIO-MED,การพัฒนาชุดตรวจโรคด้วยเทคโนโลยีชีวภาพ,2,1,2,90,3,Research,75,85,2026-01-01,9999-12-31,1,BATCH_THEME_01,2026-05-28 09:00:00
+3,ST-GREEN-ENERGY,ระบบกักเก็บพลังงานแสงอาทิตย์สำหรับชุมชน,4,2,3,88,5,Prototype,80,90,2026-01-01,9999-12-31,1,BATCH_THEME_01,2026-05-28 09:00:00
+4,ST-AI-HEALTH,การใช้ AI วิเคราะห์ภาพถ่ายทางการแพทย์,3,3,1,92,4,Development,85,95,2026-01-01,9999-12-31,1,BATCH_THEME_01,2026-05-28 09:00:00

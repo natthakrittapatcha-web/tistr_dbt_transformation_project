@@ -1,0 +1,6 @@
+skill_id,skill_name,skill_category_id,is_critical,batch_id,load_ts,source_system
+1,Data Analytics & SQL,3,1,BATCH_SKILL_002,2026-05-28 13:40:00,HR_SKILL_SYS
+2,Project Management (PMP),2,0,BATCH_SKILL_002,2026-05-28 13:40:00,HR_SKILL_SYS
+3,Laboratory Safety Management,5,1,BATCH_SKILL_002,2026-05-28 13:40:00,HR_SKILL_SYS
+4,Advanced Python Programming,3,1,BATCH_SKILL_002,2026-05-28 13:40:00,HR_SKILL_SYS
+5,Technical English Writing,4,0,BATCH_SKILL_002,2026-05-28 13:40:00,HR_SKILL_SYS

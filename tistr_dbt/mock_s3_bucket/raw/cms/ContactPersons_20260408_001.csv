@@ -1,0 +1,11 @@
+﻿ContactPersonID,Office,Position,Name,Name2,TelephoneNumber,MobileNumber,FaxNumber,Email,LineID,CustomerAddressID,[Default],DeleteStatus
+501,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_1,Contact Person 1,021112222,0998887776,,person1@test.com,line_id_1,101,1,0
+502,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_2,Contact Person 2,021112222,0998887776,,person2@test.com,line_id_2,102,1,0
+503,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_3,Contact Person 3,021112222,0998887776,,person3@test.com,line_id_3,103,1,0
+504,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_4,Contact Person 4,021112222,0998887776,,person4@test.com,line_id_4,104,1,0
+505,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_5,Contact Person 5,021112222,0998887776,,person5@test.com,line_id_5,105,1,0
+506,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_6,Contact Person 6,021112222,0998887776,,person6@test.com,line_id_6,106,1,0
+507,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_7,Contact Person 7,021112222,0998887776,,person7@test.com,line_id_7,107,1,0
+508,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_8,Contact Person 8,021112222,0998887776,,person8@test.com,line_id_8,108,1,0
+509,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_9,Contact Person 9,021112222,0998887776,,person9@test.com,line_id_9,109,1,0
+510,แผนกจัดซื้อ,ผู้จัดการ,ผู้ติดต่อ_10,Contact Person 10,021112222,0998887776,,person10@test.com,line_id_10,110,1,0

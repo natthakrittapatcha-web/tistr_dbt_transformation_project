@@ -1,0 +1,33 @@
+-- stg_training_history.sql
+select
+    training_record_id,
+    employee_id,
+    main_position_id,
+    type_iso,
+    type_country,
+    start_date,
+    end_date,
+    course_name,
+    training_institute,
+    training_manager,
+    training_description,
+    certificate_path,
+    training_status,
+    training_type,
+    lecturer,
+    training_time,
+    cast(training_hours as decimal(6,2))        as training_hours,
+    training_facility,
+    target,
+    training_cost,
+    cast(sign_date as date)                     as sign_date,
+    remarks,
+    learning_outcomes,
+    admin_emp_id,
+    created_date,
+    updated_date,
+    -- partition columns
+    year,
+    month,
+    day
+from {{ source('hris_systems', 'stg_training_history') }}

@@ -1,0 +1,25 @@
+# dbt
+target/
+logs/
+dbt_packages/
+
+# Python
+dbt-env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.*
+
+# dbt profile
+profiles.yml
+
+# OS files
+.DS_Store
+Thumbs.db

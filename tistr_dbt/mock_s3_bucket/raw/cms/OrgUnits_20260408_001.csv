@@ -1,0 +1,4 @@
+﻿OrgUnitID,OrgUnitName,OrgUnitDx,OrgUnitName2,Reference,Remark,DeleteStatus
+10,แผนกจัดซื้อ,PUR-01,Purchasing,REF-A,-,0
+20,แผนกไอที,IT-01,Information Tech,REF-B,-,0
+30,ห้องปฏิบัติการทดสอบ,LAB-01,Testing Lab,REF-C,ชั้น 2,0

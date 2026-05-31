@@ -1,0 +1,4 @@
+"technology_domain_id","technology_domain_name_th","technology_domain_name_en","is_active","batch_id","load_ts","source_system"
+"2","เทคโนโลยีชีวภาพขั้นสูง","Advanced Biotechnology","1","BATCH_TECH_001","2026-05-28 09:00:00.000","TECH_REGISTRY"
+"3","พลังงานสะอาดและเทคโนโลยีกักเก็บพลังงาน","Clean Energy and Storage Technology","1","BATCH_TECH_001","2026-05-28 09:00:00.000","TECH_REGISTRY"
+"1","ปัญญาประดิษฐ์และวิทยาศาสตร์ข้อมูล","Artificial Intelligence and Data Science","1","BATCH_TECH_001","2026-05-28 09:00:00.000","TECH_REGISTRY"

@@ -1,0 +1,3 @@
+"bigint","material_description","material_type","material_group","base_uom","total_stock","total_value","price_control","moving_average_price","valuation_class","alternate_uom","uom_numerator","uom_denominator","batch_id","load_ts","source_system","load_date"
+"100001","ไม้บรรทัดขนาด 12 นิ้ว","Z001","1001","EA","41","74.31","V","1.81","1100","EA","1","1","20260522075239","2026-05-22 07:52:39.861","SAP","2026-05-22"
+"200050","MARKER PEN ขนาดใหญ่","Z001","1101","EA","0","0.0","V","8.74","1100","EA","1","1","20260522075239","2026-05-22 07:52:39.861","SAP","2026-05-22"

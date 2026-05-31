@@ -1,0 +1,3 @@
+"asset_main","date_sk","period_year","period_quarter","period_month","electricity_kwh","fuel_energy_kwh","water_m3","waste_kg","emission_factor_version","energy_intensity_per_test","carbon_intensity_per_service","batch_id","load_ts","source_system"
+"601000100","20260131","2026","1","1","4500.500","1200.000","85.300","120.500","v2024.1","15.45000","2.35000","B_ENV_202601","2026-01-31 23:15:00.000","ENV_SYS"
+"601000200","20260131","2026","1","1","8200.750","0.000","150.200","340.000","v2024.1","12.10000","1.85000","B_ENV_202601","2026-01-31 23:15:00.000","ENV_SYS"

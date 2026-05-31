@@ -1,0 +1,5 @@
+asset_main,date_sk,period_year,period_quarter,period_month,available_hours,planned_maintenance_hours,max_theoretical_capacity,batch_id,load_ts,source_system
+601000100,20260131,2026,1,1,744.0,24.0,10000.0,B_CAP_202601,2026-01-31 23:00:00,FMIS
+601000100,20260228,2026,1,2,672.0,16.0,9000.0,B_CAP_202602,2026-02-28 23:00:00,FMIS
+601000200,20260131,2026,1,1,744.0,0.0,15000.0,B_CAP_202601,2026-01-31 23:00:00,FMIS
+601000200,20260228,2026,1,2,672.0,30.0,13500.0,B_CAP_202602,2026-02-28 23:00:00,FMIS

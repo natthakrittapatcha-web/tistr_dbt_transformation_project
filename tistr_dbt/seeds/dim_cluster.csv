@@ -1,0 +1,34 @@
+cluster_code,office_code,division_code,cluster_name_th,cluster_name_en,cluster_status,valid_from,valid_to,is_current,batch_id,load_ts,source_system
+1,OFF01,DEP-101,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+2,OFF01,DEP-101,ฝ่ายโครงสร้างพื้นฐานดิจิทัล กลุ่มที่ 2,Digital Infrastructure Division Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+3,OFF01,DEP-102,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+4,OFF01,DEP-103,ฝ่ายโครงสร้างพื้นฐานดิจิทัล กลุ่มที่ 1,Digital Infrastructure Division Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+5,OFF01,DEP-104,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+6,OFF01,DEP-105,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 1,Enterprise Software Development Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+7,OFF01,DEP-105,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 2,Testing and Standard Analysis Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+8,OFF01,DEP-106,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+9,OFF01,DEP-107,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 1,Enterprise Software Development Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+10,OFF01,DEP-107,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 2,Advanced Materials Technology Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+11,OFF01,DEP-108,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+12,OFF01,DEP-108,ฝ่ายโครงสร้างพื้นฐานดิจิทัล กลุ่มที่ 2,Digital Infrastructure Division Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+13,OFF01,DEP-109,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+14,OFF01,DEP-109,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 2,Advanced Materials Technology Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+15,OFF01,DEP-110,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+16,OFF01,DEP-110,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 2,Advanced Materials Technology Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+17,OFF01,DEP-111,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+18,OFF01,DEP-111,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 2,Enterprise Software Development Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+19,OFF01,DEP-112,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 1,Advanced Materials Technology Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+20,OFF01,DEP-112,ฝ่ายโครงสร้างพื้นฐานดิจิทัล กลุ่มที่ 2,Digital Infrastructure Division Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+21,OFF01,DEP-113,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+22,OFF01,DEP-114,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 1,Enterprise Software Development Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+23,OFF01,DEP-115,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+24,OFF01,DEP-115,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 2,Testing and Standard Analysis Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+25,OFF01,DEP-116,ฝ่ายวิเคราะห์ทดสอบและมาตรฐาน กลุ่มที่ 1,Testing and Standard Analysis Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+26,OFF01,DEP-116,ฝ่ายโครงสร้างพื้นฐานดิจิทัล กลุ่มที่ 2,Digital Infrastructure Division Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+27,OFF01,DEP-117,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+28,OFF01,DEP-117,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 2,Advanced Materials Technology Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+29,OFF01,DEP-118,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 1,Enterprise Software Development Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+30,OFF01,DEP-119,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+31,OFF01,DEP-119,ฝ่ายพัฒนาซอฟต์แวร์องค์กร กลุ่มที่ 2,Enterprise Software Development Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+32,OFF01,DEP-120,ฝ่ายวิจัยระบบอัจฉริยะ กลุ่มที่ 1,Intelligent Systems Research Group 1,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM
+33,OFF01,DEP-120,ฝ่ายเทคโนโลยีวัสดุขั้นสูง กลุ่มที่ 2,Advanced Materials Technology Group 2,A,2026-01-01,9999-12-31,1,BATCH_INIT_001,2026-05-28 00:00:00,HR_SYSTEM

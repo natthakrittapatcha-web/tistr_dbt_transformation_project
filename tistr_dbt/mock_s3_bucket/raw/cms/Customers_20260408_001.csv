@@ -1,0 +1,11 @@
+﻿CustomerID,CustomerIDx,TaxID,CustomerPrefix,Name,Name2,CustomerCatID,DeleteStatus
+1,CUST-X001,1234567890101,นางสาว,ลูกค้าทดสอบ_1,Test Customer 1,2,0
+2,CUST-X002,1234567890102,บจก.,ลูกค้าทดสอบ_2,Test Customer 2,2,0
+3,CUST-X003,1234567890103,นาย,ลูกค้าทดสอบ_3,Test Customer 3,2,0
+4,CUST-X004,1234567890104,นาย,ลูกค้าทดสอบ_4,Test Customer 4,1,0
+5,CUST-X005,1234567890105,นางสาว,ลูกค้าทดสอบ_5,Test Customer 5,1,0
+6,CUST-X006,1234567890106,นาย,ลูกค้าทดสอบ_6,Test Customer 6,1,0
+7,CUST-X007,1234567890107,นางสาว,ลูกค้าทดสอบ_7,Test Customer 7,1,0
+8,CUST-X008,1234567890108,บจก.,ลูกค้าทดสอบ_8,Test Customer 8,2,0
+9,CUST-X009,1234567890109,นางสาว,ลูกค้าทดสอบ_9,Test Customer 9,2,0
+10,CUST-X010,1234567890110,นางสาว,ลูกค้าทดสอบ_10,Test Customer 10,2,0

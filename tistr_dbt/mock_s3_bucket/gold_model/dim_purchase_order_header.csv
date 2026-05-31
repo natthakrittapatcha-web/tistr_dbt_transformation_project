@@ -1,0 +1,3 @@
+"po_number","company_code","document_category","document_type","creation_date","created_by","vendor","payment_term","purchasing_org","purchasing_group","currency","exchange_rate","document_date","validity_start","validity_end","incoterms_1","ccontract_number","contract_name","batch_id","load_ts","source_system","load_date"
+"1115032706","1000","F","ZPO1","24.01.2011","PU01      ","101305","P030","0","0","1000","104","1","   ","24.01.2011","          ","2","0","20260522081841","2026-05-22 08:18:41.159","SAP","2026-05-22"
+"1115032705","1000","F","ZPO1","21.01.2011","PU01      ","102176","P000","0","0","1000","106","1","   ","21.01.2011","          ","2","0","20260522081841","2026-05-22 08:18:41.159","SAP","2026-05-22"

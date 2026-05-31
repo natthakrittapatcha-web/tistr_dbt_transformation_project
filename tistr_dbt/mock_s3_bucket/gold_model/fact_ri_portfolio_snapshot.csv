@@ -1,0 +1,6 @@
+"project_sk","snapshot_year","date_sk","org_unit_sk","strategic_theme","project_type","trl_id","stage","strategic_alignment_score","expected_impact_score","budget_year","actual_spend_year","spend_rate","ip_outputs_score","is_commercialization","is_esg_netzero","batch_id","load_ts","source_system"
+"2","2026","20260528","24","ST-BIO-MED","Strategic Research","3","Research","90.00","85.00","2026","120000.00","0.8000","70.00","0","0","BATCH_FACT_SNAP_01","2026-05-28 10:00:00.000","TRACK_SYSTEM"
+"1","2026","20260528","15","ST-SMART-AGRI","Research & Development","4","Development","95.00","90.00","2026","450000.00","0.9000","85.00","1","1","BATCH_FACT_SNAP_01","2026-05-28 10:00:00.000","TRACK_SYSTEM"
+"5","2026","20260528","15","ST-GREEN-ENERGY","Research & Development","3","Research","85.00","80.00","2026","150000.00","0.8500","65.00","0","1","BATCH_FACT_SNAP_01","2026-05-28 10:00:00.000","TRACK_SYSTEM"
+"3","2026","20260528","11","ST-GREEN-ENERGY","Commercial Pilot","5","Prototype","88.00","90.00","2026","850000.00","0.9500","92.00","1","1","BATCH_FACT_SNAP_01","2026-05-28 10:00:00.000","TRACK_SYSTEM"
+"4","2026","20260528","20","ST-AI-HEALTH","Joint Venture","4","Development","92.00","95.00","2026","300000.00","0.7500","80.00","1","0","BATCH_FACT_SNAP_01","2026-05-28 10:00:00.000","TRACK_SYSTEM"

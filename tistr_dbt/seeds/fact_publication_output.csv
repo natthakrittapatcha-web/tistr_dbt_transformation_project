@@ -1,0 +1,6 @@
+result_sk,project_sk,date_sk,project_id,reporting_year,publication_count,patent_filed_count,patent_granted_count,prototype_count,licenses_count,spin_off_count,platform_lead_count,customer_adoption_count,license_revenue_amount,royalty_amount,batch_id,load_ts,source_system
+1,1,20261231,1,2026,3,1,0,1,1,0,1,2,50000.00,12000.50,BATCH_FACT_PUB_01,2026-05-28 10:00:00,PMO_SYSTEM
+2,2,20261231,2,2026,1,2,1,0,0,0,0,0,0.00,0.00,BATCH_FACT_PUB_01,2026-05-28 10:00:00,PMO_SYSTEM
+3,3,20261231,3,2026,0,0,0,2,1,1,0,5,120000.00,35000.00,BATCH_FACT_PUB_01,2026-05-28 10:00:00,PMO_SYSTEM
+4,4,20261231,4,2026,5,0,0,0,0,0,2,1,0.00,0.00,BATCH_FACT_PUB_01,2026-05-28 10:00:00,PMO_SYSTEM
+5,5,20261231,5,2026,2,1,0,1,0,0,0,3,0.00,0.00,BATCH_FACT_PUB_01,2026-05-28 10:00:00,PMO_SYSTEM

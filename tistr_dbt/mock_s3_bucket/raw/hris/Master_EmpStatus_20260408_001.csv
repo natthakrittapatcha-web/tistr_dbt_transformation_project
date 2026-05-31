@@ -1,0 +1,7 @@
+﻿EmpStatus,EmpStatusDesc
+01,ปฏิบัติงานปกติ (Active)
+02,ลาพักร้อน (On Leave)
+03,ลาออก (Resigned)
+04,เกษียณอายุ (Retired)
+05,พักงาน (Suspended)
+06,พ้นสภาพพนักงาน (Terminated)

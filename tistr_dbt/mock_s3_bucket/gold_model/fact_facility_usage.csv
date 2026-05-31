@@ -1,0 +1,4 @@
+"usage_sk","asset_main","date_sk","period_date","research_usage_hours","service_usage_hours","admin_usage_hours","maintenance_usage_hours","total_used_hours","tests_count","projects_count","utilization_pct","batch_id","load_ts","source_system"
+"1","601000100","20260315","2026-03-15","5.00","2.00","1.00","0.00","8.00","12","3","33.33","B_USG_20260315","2026-03-15 23:30:00.000","USAGE_SYS"
+"2","601000100","20260316","2026-03-16","6.00","1.50","0.50","1.00","9.00","15","3","37.50","B_USG_20260316","2026-03-16 23:30:00.000","USAGE_SYS"
+"3","601000200","20260315","2026-03-15","2.00","8.00","0.00","0.00","10.00","40","5","41.67","B_USG_20260315","2026-03-15 23:30:00.000","USAGE_SYS"

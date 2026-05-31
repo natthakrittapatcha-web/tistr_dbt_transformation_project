@@ -1,0 +1,3 @@
+asset_main,date_sk,assessment_date,data_connectivity_level,is_cfo_linked,iso_certifications,net_zero_stage,esg_readiness_score,batch_id,load_ts,source_system
+601000100,20260331,2026-03-31,4,1,"ISO9001,ISO14001",REDUCTION,78.5,B_ESG_READY_202603,2026-03-31 23:50:00,ESG_AUDIT
+601000200,20260331,2026-03-31,3,0,ISO9001,BASELINE,52.0,B_ESG_READY_202603,2026-03-31 23:50:00,ESG_AUDIT

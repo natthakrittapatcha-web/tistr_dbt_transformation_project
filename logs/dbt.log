@@ -1,0 +1,346 @@
+[0m15:12:55.748954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD24A1550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD2319760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD1E42F90>]}
+
+
+============================== 15:12:55.758345 | 67da9a9e-e1d9-415c-9deb-441541ec82de ==============================
+[0m15:12:55.758345 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:12:55.760345 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init tistr_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:12:55.801470 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Lenovo\.dbt
+[0m15:12:55.807356 [debug] [MainThread]: Starter project path: C:\Users\Lenovo\Documents\tistr_project\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m15:12:55.858552 [info ] [MainThread]: 
+Your new dbt project "tistr_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:12:55.860876 [info ] [MainThread]: Setting up your profile.
+[0m15:18:28.142203 [info ] [MainThread]: Profile tistr_dbt written to C:\Users\Lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:18:28.145209 [debug] [MainThread]: Command `dbt init` succeeded at 15:18:28.144206 after 332.55 seconds
+[0m15:18:28.145209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD2891910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD25F7F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FD2384F80>]}
+[0m15:18:28.146206 [debug] [MainThread]: Flushing usage events
+[0m15:18:29.593433 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:31:19.046290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB07A85850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB078C4800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB0787A930>]}
+
+
+============================== 16:31:19.058290 | cff6b9b3-70a3-4c78-b6f9-2f5a43fe6870 ==============================
+[0m16:31:19.058290 [info ] [MainThread]: Running with dbt=1.11.8
+[0m16:31:19.060288 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:31:19.125680 [info ] [MainThread]: dbt version: 1.11.8
+[0m16:31:19.126683 [info ] [MainThread]: python version: 3.12.8
+[0m16:31:19.128681 [info ] [MainThread]: python path: C:\Users\Lenovo\Documents\tistr_project\dbt-env\Scripts\python.exe
+[0m16:31:19.128681 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:31:20.425517 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m16:31:20.426525 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m16:31:20.426525 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+[0m16:31:20.430532 [info ] [MainThread]: adapter type: athena
+[0m16:31:20.431525 [info ] [MainThread]: adapter version: 1.10.0
+[0m16:31:20.432527 [info ] [MainThread]: Configuration:
+[0m16:31:20.432527 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:31:20.433522 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:31:20.434517 [info ] [MainThread]: Required dependencies:
+[0m16:31:20.436523 [debug] [MainThread]: Executing "git --help"
+[0m16:31:20.467520 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m16:31:20.468518 [info ] [MainThread]: Connection:
+[0m16:31:20.469517 [info ] [MainThread]:   s3_staging_dir: s3://tistr-data-lake/athena-results/logs/
+[0m16:31:20.470517 [info ] [MainThread]:   work_group: None
+[0m16:31:20.471422 [info ] [MainThread]:   skip_workgroup_check: False
+[0m16:31:20.472548 [info ] [MainThread]:   region_name: ap-southeast-2
+[0m16:31:20.473542 [info ] [MainThread]:   database: awsdatacatalog
+[0m16:31:20.473542 [info ] [MainThread]:   schema: gold_tistr
+[0m16:31:20.474533 [info ] [MainThread]:   poll_interval: 1.0
+[0m16:31:20.475565 [info ] [MainThread]:   aws_profile_name: None
+[0m16:31:20.475565 [info ] [MainThread]:   aws_access_key_id: None
+[0m16:31:20.477538 [info ] [MainThread]:   endpoint_url: None
+[0m16:31:20.478535 [info ] [MainThread]:   s3_data_dir: s3://tistr-data-lake/03-curated/
+[0m16:31:20.479552 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m16:31:20.479552 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m16:31:20.480532 [info ] [MainThread]:   debug_query_state: False
+[0m16:31:20.481536 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m16:31:20.482565 [info ] [MainThread]:   lf_tags_database: None
+[0m16:31:20.484540 [info ] [MainThread]:   spark_work_group: None
+[0m16:31:20.485531 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m16:31:21.566536 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m16:31:21.567534 [debug] [MainThread]: Using athena connection "debug"
+[0m16:31:21.567534 [debug] [MainThread]: On debug: select 1 as id
+[0m16:31:21.568488 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:32:05.539538 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Error running SQL: select 1 as id
+[0m16:32:05.541540 [debug] [MainThread]: On debug: Close
+[0m16:32:05.541540 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:32:05.543501 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m16:32:05.544763 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml> not found
+
+[0m16:32:05.548783 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m16:32:05.550822 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  Unable to locate credentials
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:32:05.553786 [debug] [MainThread]: Command `dbt debug` failed at 16:32:05.552786 after 46.78 seconds
+[0m16:32:05.554780 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:32:05.554780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB078C4800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB0A3200E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB093E9970>]}
+[0m16:32:05.556788 [debug] [MainThread]: Flushing usage events
+[0m16:32:07.576850 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:08:47.521853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BFA543B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BF77651F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BF9F697C0>]}
+
+
+============================== 13:08:47.535099 | eac47c32-5c33-43db-945f-88635f47658b ==============================
+[0m13:08:47.535099 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:08:47.537149 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:08:47.606886 [info ] [MainThread]: dbt version: 1.11.8
+[0m13:08:47.608888 [info ] [MainThread]: python version: 3.12.8
+[0m13:08:47.609888 [info ] [MainThread]: python path: C:\Users\Lenovo\Documents\tistr_project\dbt-env\Scripts\python.exe
+[0m13:08:47.610887 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m13:08:53.024778 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m13:08:53.025756 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m13:08:53.026753 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+[0m13:08:53.027752 [info ] [MainThread]: adapter type: athena
+[0m13:08:53.028754 [info ] [MainThread]: adapter version: 1.10.0
+[0m13:08:53.028754 [info ] [MainThread]: Configuration:
+[0m13:08:53.029753 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:08:53.029753 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:08:53.029753 [info ] [MainThread]: Required dependencies:
+[0m13:08:53.030754 [debug] [MainThread]: Executing "git --help"
+[0m13:08:53.042266 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m13:08:53.043266 [info ] [MainThread]: Connection:
+[0m13:08:53.043266 [info ] [MainThread]:   s3_staging_dir: s3://tistr-data-lake/athena-results/logs/
+[0m13:08:53.044493 [info ] [MainThread]:   work_group: None
+[0m13:08:53.044493 [info ] [MainThread]:   skip_workgroup_check: False
+[0m13:08:53.045500 [info ] [MainThread]:   region_name: ap-southeast-2
+[0m13:08:53.045500 [info ] [MainThread]:   database: awsdatacatalog
+[0m13:08:53.045500 [info ] [MainThread]:   schema: gold_tistr
+[0m13:08:53.046498 [info ] [MainThread]:   poll_interval: 1.0
+[0m13:08:53.046498 [info ] [MainThread]:   aws_profile_name: None
+[0m13:08:53.046498 [info ] [MainThread]:   aws_access_key_id: None
+[0m13:08:53.046498 [info ] [MainThread]:   endpoint_url: None
+[0m13:08:53.047498 [info ] [MainThread]:   s3_data_dir: s3://tistr-data-lake/03-curated/
+[0m13:08:53.047498 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m13:08:53.047498 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m13:08:53.047498 [info ] [MainThread]:   debug_query_state: False
+[0m13:08:53.049002 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m13:08:53.050008 [info ] [MainThread]:   lf_tags_database: None
+[0m13:08:53.051008 [info ] [MainThread]:   spark_work_group: None
+[0m13:08:53.051008 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m13:08:53.527287 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m13:08:53.528279 [debug] [MainThread]: Using athena connection "debug"
+[0m13:08:53.528279 [debug] [MainThread]: On debug: select 1 as id
+[0m13:08:53.529243 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:11:16.837773 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Error running SQL: select 1 as id
+[0m13:11:16.838772 [debug] [MainThread]: On debug: Close
+[0m13:11:16.839771 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m13:11:16.840772 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m13:11:16.841773 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml> not found
+
+[0m13:11:16.841773 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m13:11:16.843287 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  Unable to locate credentials
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m13:11:16.846314 [debug] [MainThread]: Command `dbt debug` failed at 13:11:16.845312 after 149.80 seconds
+[0m13:11:16.846314 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:11:16.847317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BFA543B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BFCE21D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BFCE438F0>]}
+[0m13:11:16.848317 [debug] [MainThread]: Flushing usage events
+[0m13:11:18.294252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:15:41.571381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A86178D880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A860647E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A86178FB60>]}
+
+
+============================== 13:15:41.577915 | 13652dce-2344-4744-8f97-39da6a1100d3 ==============================
+[0m13:15:41.577915 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:15:41.578897 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:15:41.613795 [info ] [MainThread]: dbt version: 1.11.8
+[0m13:15:41.614779 [info ] [MainThread]: python version: 3.12.8
+[0m13:15:41.614779 [info ] [MainThread]: python path: C:\Users\Lenovo\Documents\tistr_project\dbt-env\Scripts\python.exe
+[0m13:15:41.615777 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m13:15:42.158524 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m13:15:42.159550 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m13:15:42.160523 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+[0m13:15:42.161522 [info ] [MainThread]: adapter type: athena
+[0m13:15:42.161522 [info ] [MainThread]: adapter version: 1.10.0
+[0m13:15:42.163029 [info ] [MainThread]: Configuration:
+[0m13:15:42.164038 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:15:42.164038 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:15:42.165037 [info ] [MainThread]: Required dependencies:
+[0m13:15:42.165037 [debug] [MainThread]: Executing "git --help"
+[0m13:15:42.177554 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m13:15:42.177554 [info ] [MainThread]: Connection:
+[0m13:15:42.178667 [info ] [MainThread]:   s3_staging_dir: s3://tistr-data-lake/athena-results/logs/
+[0m13:15:42.179557 [info ] [MainThread]:   work_group: None
+[0m13:15:42.179557 [info ] [MainThread]:   skip_workgroup_check: False
+[0m13:15:42.180556 [info ] [MainThread]:   region_name: ap-southeast-2
+[0m13:15:42.181556 [info ] [MainThread]:   database: awsdatacatalog
+[0m13:15:42.183069 [info ] [MainThread]:   schema: gold_tistr
+[0m13:15:42.184082 [info ] [MainThread]:   poll_interval: 1.0
+[0m13:15:42.184082 [info ] [MainThread]:   aws_profile_name: None
+[0m13:15:42.185080 [info ] [MainThread]:   aws_access_key_id: None
+[0m13:15:42.186089 [info ] [MainThread]:   endpoint_url: None
+[0m13:15:42.188089 [info ] [MainThread]:   s3_data_dir: s3://tistr-data-lake/03-curated/
+[0m13:15:42.188089 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m13:15:42.189090 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m13:15:42.189090 [info ] [MainThread]:   debug_query_state: False
+[0m13:15:42.190130 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m13:15:42.191086 [info ] [MainThread]:   lf_tags_database: None
+[0m13:15:42.191086 [info ] [MainThread]:   spark_work_group: None
+[0m13:15:42.192087 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m13:15:42.513724 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m13:15:42.513724 [debug] [MainThread]: Using athena connection "debug"
+[0m13:15:42.513724 [debug] [MainThread]: On debug: select 1 as id
+[0m13:15:42.514739 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:17:42.917197 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Error running SQL: select 1 as id
+[0m13:17:42.918193 [debug] [MainThread]: On debug: Close
+[0m13:17:42.919207 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m13:17:42.920193 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m13:17:42.921192 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml> not found
+
+[0m13:17:42.922194 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m13:17:42.923194 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  Unable to locate credentials
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m13:17:42.926527 [debug] [MainThread]: Command `dbt debug` failed at 13:17:42.925523 after 121.69 seconds
+[0m13:17:42.926527 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:17:42.928522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A860647E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8636DA3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A861522D20>]}
+[0m13:17:42.930526 [debug] [MainThread]: Flushing usage events
+[0m13:17:44.423144 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:35:06.444474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001516196E1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001516450C1A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015163F356A0>]}
+
+
+============================== 14:35:06.454631 | 15a1ad71-7964-428b-8b06-099fb09f83d1 ==============================
+[0m14:35:06.454631 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:35:06.456141 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:35:06.497910 [info ] [MainThread]: dbt version: 1.11.8
+[0m14:35:06.499023 [info ] [MainThread]: python version: 3.12.8
+[0m14:35:06.499918 [info ] [MainThread]: python path: C:\Users\Lenovo\Documents\tistr_project\dbt-env\Scripts\python.exe
+[0m14:35:06.499918 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:35:06.988906 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m14:35:06.990183 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m14:35:06.990183 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+[0m14:35:06.991190 [info ] [MainThread]: adapter type: athena
+[0m14:35:06.992191 [info ] [MainThread]: adapter version: 1.10.0
+[0m14:35:06.992191 [info ] [MainThread]: Configuration:
+[0m14:35:06.993190 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:35:06.993190 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:35:06.994239 [info ] [MainThread]: Required dependencies:
+[0m14:35:06.994239 [debug] [MainThread]: Executing "git --help"
+[0m14:35:07.052063 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:35:07.053079 [debug] [MainThread]: STDERR: "b''"
+[0m14:35:07.053079 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:35:07.054061 [info ] [MainThread]: Connection:
+[0m14:35:07.054061 [info ] [MainThread]:   s3_staging_dir: s3://tistr-data-lake/athena-results/logs/
+[0m14:35:07.054061 [info ] [MainThread]:   work_group: None
+[0m14:35:07.055062 [info ] [MainThread]:   skip_workgroup_check: False
+[0m14:35:07.055062 [info ] [MainThread]:   region_name: ap-southeast-2
+[0m14:35:07.055062 [info ] [MainThread]:   database: awsdatacatalog
+[0m14:35:07.056062 [info ] [MainThread]:   schema: gold_tistr
+[0m14:35:07.056062 [info ] [MainThread]:   poll_interval: 1.0
+[0m14:35:07.056062 [info ] [MainThread]:   aws_profile_name: None
+[0m14:35:07.056062 [info ] [MainThread]:   aws_access_key_id: None
+[0m14:35:07.057221 [info ] [MainThread]:   endpoint_url: None
+[0m14:35:07.057221 [info ] [MainThread]:   s3_data_dir: s3://tistr-data-lake/03-curated/
+[0m14:35:07.058229 [info ] [MainThread]:   s3_data_naming: schema_table_unique
+[0m14:35:07.058229 [info ] [MainThread]:   s3_tmp_table_dir: None
+[0m14:35:07.058812 [info ] [MainThread]:   debug_query_state: False
+[0m14:35:07.058812 [info ] [MainThread]:   seed_s3_upload_args: None
+[0m14:35:07.058812 [info ] [MainThread]:   lf_tags_database: None
+[0m14:35:07.059819 [info ] [MainThread]:   spark_work_group: None
+[0m14:35:07.059819 [info ] [MainThread]: Registered adapter: athena=1.10.0
+[0m14:35:07.330450 [debug] [MainThread]: Acquiring new athena connection 'debug'
+[0m14:35:07.331450 [debug] [MainThread]: Using athena connection "debug"
+[0m14:35:07.331450 [debug] [MainThread]: On debug: select 1 as id
+[0m14:35:07.332449 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:35:08.416085 [debug] [MainThread]: dbt.adapters.athena.constants adapter: Athena query ID a906193b-37ce-4823-88d2-52e7b01a4b87
+[0m14:35:10.183488 [debug] [MainThread]: SQL status: OK -1 in 2.851 seconds
+[0m14:35:10.184488 [debug] [MainThread]: On debug: Close
+[0m14:35:10.184488 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:35:10.184488 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:35:10.185994 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml> not found
+
+[0m14:35:10.187514 [debug] [MainThread]: Command `dbt debug` failed at 14:35:10.187006 after 3.97 seconds
+[0m14:35:10.187514 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:35:10.188523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015161A2E5A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015163E90DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001516349A300>]}
+[0m14:35:10.188523 [debug] [MainThread]: Flushing usage events
+[0m14:35:11.586731 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:39:31.290285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDB101520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDDDFA870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDF741520>]}
+
+
+============================== 13:39:31.300279 | 421dcef2-ae7c-47b0-9ca0-0653ca686eb0 ==============================
+[0m13:39:31.300279 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:39:31.302274 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'invocation_command': 'dbt run --select fact_service_txn', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:39:31.303272 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:39:31.305276 [debug] [MainThread]: Command `dbt run` failed at 13:39:31.305276 after 0.22 seconds
+[0m13:39:31.306278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDDC03680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDB101520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FDDF4B890>]}
+[0m13:39:31.307274 [debug] [MainThread]: Flushing usage events
+[0m13:39:32.875337 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:41:19.407937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F924E70470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F923331400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F925B35CD0>]}
+
+
+============================== 13:41:19.415936 | 4816e04a-97de-4f33-8bbc-87be153b67c7 ==============================
+[0m13:41:19.415936 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:41:19.417932 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select fact_service_txn', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:41:19.418941 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:41:19.420951 [debug] [MainThread]: Command `dbt run` failed at 13:41:19.420951 after 0.22 seconds
+[0m13:41:19.421940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F924E70470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F925C4C530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F925C4EBA0>]}
+[0m13:41:19.421940 [debug] [MainThread]: Flushing usage events
+[0m13:41:23.961503 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:02:40.660681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C5484C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C5FB5EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C2EB9940>]}
+
+
+============================== 21:02:40.674685 | 97b1c32c-04f5-41bc-b85f-e9d57dcc8efb ==============================
+[0m21:02:40.674685 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:02:40.675681 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select dim_employee_address --full-refresh', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:02:40.677686 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lenovo\Documents\tistr_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:02:40.678677 [debug] [MainThread]: Command `dbt run` failed at 21:02:40.678677 after 0.32 seconds
+[0m21:02:40.679796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C2D379B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C5A35A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9C7E256A0>]}
+[0m21:02:40.680800 [debug] [MainThread]: Flushing usage events
+[0m21:02:42.412444 [debug] [MainThread]: An error was encountered while trying to flush usage events

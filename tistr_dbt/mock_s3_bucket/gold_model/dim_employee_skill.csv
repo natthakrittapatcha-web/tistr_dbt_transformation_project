@@ -1,0 +1,6 @@
+"employee_skill_sk","skill_id","employee_sk","employee_id","proficiency_level","last_assessed_date","assessment_method","valid_from","valid_to","is_current","batch_id","load_ts","source_system"
+"2","4","b86d07b605150e168675dbda3d1b30fe","EMP001","Intermediate","2026-01-10","Practical Test","2026-01-10","9999-12-31","1","BATCH_EMP_SKILL_01","2026-05-28 13:40:00.000","HR_SKILL_SYS"
+"4","3","7fe84ad41ce51628d56612fb807dfd4a","EMP003","Advanced","2026-02-20","Manager Assessment","2026-02-20","9999-12-31","1","BATCH_EMP_SKILL_01","2026-05-28 13:40:00.000","HR_SKILL_SYS"
+"5","5","40a4fd5eb0bdc9b459a58188c2d89286","EMP004","Intermediate","2026-03-05","Interview","2026-03-05","9999-12-31","1","BATCH_EMP_SKILL_01","2026-05-28 13:40:00.000","HR_SKILL_SYS"
+"1","1","b86d07b605150e168675dbda3d1b30fe","EMP001","Advanced","2026-01-10","Practical Test","2026-01-10","9999-12-31","1","BATCH_EMP_SKILL_01","2026-05-28 13:40:00.000","HR_SKILL_SYS"
+"3","2","56ad74df9d5a0821750fec126c08ea2f","EMP002","Expert","2025-11-15","Certification Review","2025-11-15","9999-12-31","1","BATCH_EMP_SKILL_01","2026-05-28 13:40:00.000","HR_SKILL_SYS"

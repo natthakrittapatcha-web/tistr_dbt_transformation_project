@@ -1,0 +1,4 @@
+﻿OrgPartID,OrgPartName,OrgPartCode,DeleteStatus
+1,ส่วนงานบริหาร,ADMIN-01,0
+2,ส่วนงานปฏิบัติการ,OPER-01,0
+3,ส่วนงานวิจัย,RES-01,0

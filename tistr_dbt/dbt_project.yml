@@ -1,0 +1,114 @@
+# dbt_project.yml
+
+name: 'tistr_dbt'
+version: '1.0.0'
+profile: 'tistr_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  tistr_dbt:
+    staging:
+      +materialized: view
+    marts: 
+        +materialized: incremental
+        +file_format: parquet
+
+
+seeds:
+  tistr_dbt:  
+    dim_workplace: 
+      +column_types:
+        wide: decimal(10,2)
+        long: decimal(10,2)
+        high: decimal(10,2)
+        area: decimal(10,2)
+        
+    fact_publication_output:
+      +column_types:
+        license_revenue_amount: decimal(15,2)
+        royalty_amount: decimal(15,2)
+
+    fact_ri_portfolio_snapshot:
+      +column_types:
+        strategic_alignment_score: decimal(5,2)
+        expected_impact_score: decimal(5,2)
+        actual_spend_year: decimal(15,2)
+        spend_rate: decimal(5,4)
+        ip_outputs_score: decimal(5,2)
+
+    fact_customer_kpi_snapshot:
+      +column_types:
+        customer_sk: varchar(50)            # ล็อคให้เป็นข้อความ ป้องกันระบบเดาเป็นตัวเลข
+        annual_revenue: decimal(18,2)       
+        revenue_yoy_pct: decimal(8,4)       
+        svc_div_score: decimal(5,4)         
+        churn_risk_score: decimal(5,4)      
+        strategic_fit_score: decimal(5,4)   
+        sandbox_score: decimal(5,4)
+
+    # 1. ตารางกำลังการรองรับสิ่งอำนวยความสะดวก
+    fact_facility_capacity:
+      +column_types:
+        asset_main: varchar(20)
+        available_hours: decimal(10,2)
+        planned_maintenance_hours: decimal(10,2)
+        max_theoretical_capacity: decimal(12,2)
+
+    # 2. ตารางบันทึกประวัติและชั่วโมงการใช้งานจริง
+    fact_facility_usage:
+      +column_types:
+        asset_main: varchar(20)
+        research_usage_hours: decimal(10,2)
+        service_usage_hours: decimal(10,2)
+        admin_usage_hours: decimal(10,2)
+        maintenance_usage_hours: decimal(10,2)
+        total_used_hours: decimal(10,2)
+        utilization_pct: decimal(5,2)
+
+    # 3. ตารางติดตามการใช้พลังงานและสิ่งแวดล้อม
+    fact_energy_environment:
+      +column_types:
+        asset_main: varchar(20)
+        electricity_kwh: decimal(12,3)
+        fuel_energy_kwh: decimal(12,3)
+        water_m3: decimal(10,3)
+        waste_kg: decimal(10,3)
+        energy_intensity_per_test: decimal(12,5)
+        carbon_intensity_per_service: decimal(12,5)
+
+    # 4. ตารางบันทึกปริมาณการให้บริการและรายได้
+    fact_facility_service:
+      +column_types:
+        asset_main: varchar(20)
+        service_volume: decimal(12,2)
+        service_revenue: decimal(15,2)
+
+    # 5. ตารางประเมินความพร้อมมาตรฐาน ESG
+    fact_facility_esg_readiness:
+      +column_types:
+        asset_main: varchar(20)
+        iso_certifications: varchar(255)
+        esg_readiness_score: decimal(5,2)
+
+    # 6. ตารางภาพถ่ายข้อมูลรายเดือนรวบรวมมิติความยั่งยืน
+    fact_infra_esg_snapshot:
+      +column_types:
+        asset_main: varchar(20)
+        office_code: varchar(20)
+        utilization_pct: decimal(5,2)
+        research_ratio_pct: decimal(5,2)
+        service_ratio_pct: decimal(5,2)
+        energy_intensity_per_test: decimal(12,5)
+        carbon_intensity_per_service: decimal(12,5)
+        eco_efficiency_index: decimal(8,4)
+        esg_readiness_score: decimal(5,2)

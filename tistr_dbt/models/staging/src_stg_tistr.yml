@@ -1,0 +1,92 @@
+version: 2
+
+sources:
+  - name: rdms_systems
+    database: awsdatacatalog
+    schema: stg_rdms # ชื่อ database ใน Glue
+    tables:
+      - name: stg_budget_category
+      - name: stg_budget_category_sub
+      - name: stg_fund_source
+      - name: stg_fund_source_group
+      - name: stg_fund_source_sub
+      - name: stg_project
+      - name: stg_project_budget_item
+      - name: stg_project_budget_monthly
+      - name: stg_project_expected_impact
+      - name: stg_project_expected_output
+      - name: stg_project_expected_process
+      - name: stg_project_manpower
+      - name: stg_project_expected_outcome
+      - name: stg_project_plan
+      - name: stg_project_plan_monthly
+      - name: stg_project_duration
+      - name: stg_trl
+
+  - name: hris_systems
+    database: awsdatacatalog
+    schema: stg_hris
+    tables:
+      - name: stg_business_group
+      - name: stg_degree
+      - name: stg_division
+      - name: stg_education_level
+      - name: stg_employee
+      - name: stg_employee_address
+      - name: stg_employee_education
+      - name: stg_employee_family
+      - name: stg_employee_group
+      - name: stg_employee_position
+      - name: stg_employment_status
+      - name: stg_expert_center_office
+      - name: stg_expertise
+      - name: stg_job_band
+      - name: stg_job_subband
+      - name: stg_position
+      - name: stg_promotion_history
+      - name: stg_supervisor
+      - name: stg_training_history
+      - name: stg_university
+      
+  - name: cms_systems
+    database: awsdatacatalog
+    schema: stg_cms
+    tables:
+      - name: stg_business_group
+      - name: stg_contact_person
+      - name: stg_customer
+      - name: stg_customer_address
+      - name: stg_customer_category
+      - name: stg_district
+      - name: stg_division
+      - name: stg_employee
+      - name: stg_expert_center_office
+      - name: stg_position
+      - name: stg_province
+      - name: stg_sub_district
+      - name: stg_contract
+
+  - name: mis_systems
+    database: awsdatacatalog
+    schema: stg_mis
+    tables:
+      - name: stg_customer
+      - name: stg_service_request
+  - name: sap_systems
+    database: awsdatacatalog
+    schema: stg_sap
+    tables:
+      - name: stg_asset_register
+      - name: stg_category_asset
+      - name: stg_customer
+      - name: stg_material
+      - name: stg_material_movement
+      - name: stg_purchase_order_header
+      - name: stg_purchase_order_item
+      - name: stg_vendor
+
+  - name: jump_systems
+    database: awsdatacatalog
+    schema: stg_jump
+    tables:
+      - name: stg_customer

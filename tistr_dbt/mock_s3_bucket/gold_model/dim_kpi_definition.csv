@@ -1,0 +1,4 @@
+"kpi_sk","org_unit_sk","kpi_name","business_definition","technical_definition","approved_by","updated_date","batch_id","load_ts"
+"3","20","คะแนนการทดสอบใน Sandbox","คะแนนประเมินประสิทธิภาพการทดลองระบบใน Sandbox ของลูกค้า","AVERAGE(sandbox_test_cases_passed_pct)","ดร.สมชาย ใจดี","2026-03-05 15:45:00.000","BATCH_KPI_DEF_01","2026-05-28 11:35:00.000"
+"1","15","อัตราการเติบโตของรายได้ลูกค้ารายปี","วัดอัตราส่วนรายได้ที่เพิ่มขึ้นเทียบกับปีก่อนหน้า","SUM(annual_revenue_current - annual_revenue_prior) / SUM(annual_revenue_prior)","ดร.สมชาย ใจดี","2026-01-15 13:00:00.000","BATCH_KPI_DEF_01","2026-05-28 11:35:00.000"
+"2","11","ดัชนีความเสี่ยงในการเลิกใช้บริการ","คะแนนประเมินความเสี่ยงที่ลูกค้าจะ Churn จากพฤติกรรมการใช้งาน","CALCULATE_CHURN_RISK_MODEL(usage_frequency)","คุณอนันต์ ยอดเยี่ยม","2026-02-10 09:30:00.000","BATCH_KPI_DEF_01","2026-05-28 11:35:00.000"

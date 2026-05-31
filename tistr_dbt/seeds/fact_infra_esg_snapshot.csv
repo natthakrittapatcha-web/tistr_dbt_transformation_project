@@ -1,0 +1,3 @@
+asset_main,date_sk,period_year,period_quarter,period_month,org_unit_sk,office_code,utilization_pct,research_ratio_pct,service_ratio_pct,energy_intensity_per_test,carbon_intensity_per_service,eco_efficiency_index,esg_readiness_score,data_connectivity_level,is_cfo_linked,net_zero_stage,batch_id,load_ts,source_system
+601000100,20260131,2026,1,1,15,OFF01,75.4,60.0,40.0,15.45,2.35,82.5,78.5,4,1,REDUCTION,B_SNAP_202601,2026-01-31 23:59:59,DWH_AGG
+601000200,20260131,2026,1,1,24,OFF01,55.2,20.0,80.0,12.1,1.85,68.2,52.0,3,0,BASELINE,B_SNAP_202601,2026-01-31 23:59:59,DWH_AGG
