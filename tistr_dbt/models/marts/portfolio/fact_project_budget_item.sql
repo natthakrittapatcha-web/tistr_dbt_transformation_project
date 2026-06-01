@@ -39,4 +39,4 @@ select
     
     cast(current_timestamp as date) as load_date
 from src
-left join pro on src.project_id = pro.project_id
+left join pro on cast(src.project_id as varchar) = cast(pro.project_id as varchar)
